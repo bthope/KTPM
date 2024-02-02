@@ -1,4 +1,6 @@
-## Bài Tập Tuần 02
+## Bài Tập Tuần 01:
+[Week01.pdf](https://github.com/bthope/KTPM/files/14138291/Week01.pdf)
+## Bài Tập Tuần 02:
 #Câu 1:
 ![Cau1](https://github.com/bthope/KTPM/assets/105543973/9f7e38fc-83a9-4da2-ac32-d6c95dc4c841)
 #Câu 2:
