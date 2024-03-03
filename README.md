@@ -1,5 +1,6 @@
 [Week01](#Week01) <br>
-[Week02](#Week02)
+[Week02](#Week02) <br>
+[Week04](#Week04)
 # Week01:
 [Week01.pdf](https://github.com/bthope/KTPM/files/14138291/Week01.pdf)
 # Week02:
@@ -17,4 +18,8 @@
 ![Cau6](https://github.com/bthope/KTPM/assets/105543973/a3ceda5e-ef54-468e-9f06-033465225006)
 #Câu 7:
 ![Cau7](https://github.com/bthope/KTPM/assets/105543973/d070dd36-9c14-4b00-ac6e-d9824138a199)
+# Week04:
+![1](https://github.com/bthope/KTPM/assets/105543973/68d66ee7-74de-4221-a26f-64ebe90e5bef)
+![2](https://github.com/bthope/KTPM/assets/105543973/0876665e-4aeb-4d84-892e-96257d81e0d8)
+![3](https://github.com/bthope/KTPM/assets/105543973/c4d03e87-a9c3-4b72-8145-88a1422df603)
 
