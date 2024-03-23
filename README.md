@@ -1,6 +1,6 @@
 [Week01](#Week01) <br>
 [Week02](#Week02) <br>
-[Week04](#Week03) <br>
+[Week03](#Week03) <br>
 [Week04](#Week04)
 # Week01:
 [Week01.pdf](https://github.com/bthope/KTPM/files/14138291/Week01.pdf)
