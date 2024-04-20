@@ -1,0 +1,3 @@
+include ':EnglishLanguage', ':Language', ':VietnameseLanguage'
+
+rootProject.name = 'Translate'
