@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CustomerServiceInterface" />
+        <option name="gradleJvm" value="19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CustomerServiceInterface" />
+            <option value="$PROJECT_DIR$/CustomerServiceInterface/item-status-service" />
+            <option value="$PROJECT_DIR$/CustomerServiceInterface/quoting-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ReceivingAndAccountingUserInterface" />
+        <option name="gradleJvm" value="19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ReceivingAndAccountingUserInterface" />
+            <option value="$PROJECT_DIR$/ReceivingAndAccountingUserInterface/accounting-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ReceivingUserInterface" />
+        <option name="gradleJvm" value="19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ReceivingUserInterface" />
+            <option value="$PROJECT_DIR$/ReceivingUserInterface/assessment-service" />
+            <option value="$PROJECT_DIR$/ReceivingUserInterface/receiving-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

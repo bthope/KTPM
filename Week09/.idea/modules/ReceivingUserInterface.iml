@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="ReceivingUserInterface" external.linked.project.path="$MODULE_DIR$/../../ReceivingUserInterface" external.root.project.path="$MODULE_DIR$/../../ReceivingUserInterface" external.system.id="GRADLE" external.system.module.group="com.sonnees" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../ReceivingUserInterface">
+      <excludeFolder url="file://$MODULE_DIR$/../../ReceivingUserInterface/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ReceivingUserInterface/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

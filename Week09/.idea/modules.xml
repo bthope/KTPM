@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomerServiceInterface.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomerServiceInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/item-status-service/CustomerServiceInterface.item-status-service.iml" filepath="$PROJECT_DIR$/.idea/modules/item-status-service/CustomerServiceInterface.item-status-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomerServiceInterface.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomerServiceInterface.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quoting-service/CustomerServiceInterface.quoting-service.iml" filepath="$PROJECT_DIR$/.idea/modules/quoting-service/CustomerServiceInterface.quoting-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomerServiceInterface.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomerServiceInterface.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReceivingAndAccountingUserInterface.iml" filepath="$PROJECT_DIR$/.idea/modules/ReceivingAndAccountingUserInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/accounting-service/ReceivingAndAccountingUserInterface.accounting-service.iml" filepath="$PROJECT_DIR$/.idea/modules/accounting-service/ReceivingAndAccountingUserInterface.accounting-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReceivingAndAccountingUserInterface.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ReceivingAndAccountingUserInterface.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReceivingAndAccountingUserInterface.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ReceivingAndAccountingUserInterface.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReceivingUserInterface.iml" filepath="$PROJECT_DIR$/.idea/modules/ReceivingUserInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/assessment-service/ReceivingUserInterface.assessment-service.iml" filepath="$PROJECT_DIR$/.idea/modules/assessment-service/ReceivingUserInterface.assessment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReceivingUserInterface.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ReceivingUserInterface.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/receiving-service/ReceivingUserInterface.receiving-service.iml" filepath="$PROJECT_DIR$/.idea/modules/receiving-service/ReceivingUserInterface.receiving-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReceivingUserInterface.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ReceivingUserInterface.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lab09.iml" filepath="$PROJECT_DIR$/.idea/lab09.iml" />
+    </modules>
+  </component>
+</project>

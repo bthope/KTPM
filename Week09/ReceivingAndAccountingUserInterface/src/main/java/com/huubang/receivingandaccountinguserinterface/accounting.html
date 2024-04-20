@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accounting Service</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body >
+    <h1 style="text-align: center;">
+        Accounting Service
+    </h1>
+    <div style="display: flex; flex-direction: column;  justify-content: center; align-items: center;">
+        <form>
+            <div style="display: flex; justify-content: center;">
+                <button id="btn" type="button" class="btn btn-success" onclick="search()">Search All Item Status SUCCESS</button>
+            </div>
+        </form>
+        
+        <table id="table" style="display: none; margin-left: 50%;" class="table table-hover">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>idUser</th>
+                    <th>date</th>
+                    <th>priceBy</th>
+                    <th>status</th>
+                    <th>Option</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+    </div>
+
+
+    <script>
+        function search() {
+            fetch('http://localhost:8082/api/v1/status/search-by-status')
+                .then(response => response.json())
+                .then(data => {
+                    if(data.length > 0){
+                        document.getElementById("table").style.display = "block";
+                        let tbody = document.querySelector("tbody");
+
+                        tbody.innerHTML = "";
+                        data.forEach(element => {
+                            let tr = document.createElement("tr");
+                            let td1 = document.createElement("td");
+                            let td2 = document.createElement("td");
+                            let td3 = document.createElement("td");
+                            let td4 = document.createElement("td");
+                            let td5 = document.createElement("td");
+                            let td6 = document.createElement("td");
+
+                            td1.innerHTML = element.id;
+                            td2.innerHTML = element.idUser;
+                            td3.innerHTML = element.date;
+                            td4.innerHTML = element.priceBy;
+                            td5.innerHTML = element.status;
+                            td6.innerHTML = `<button type="button" class="btn btn-info" onclick='pay(${element.priceBy},"${element.id}")'>Pay</button>`;
+
+                            tr.appendChild(td1);
+                            tr.appendChild(td2);
+                            tr.appendChild(td3);
+                            tr.appendChild(td4);
+                            tr.appendChild(td5);
+                            tr.appendChild(td6);
+
+                            tbody.appendChild(tr);
+                        });
+                    }else{
+                        alert("No data found");
+                        document.getElementById("table").style.display = "none";
+                        tbody.innerHTML = "";
+                    }
+                });
+            
+        }
+    
+    function pay(priceBy, id){
+        alert("Pay for id: "+id+" with price: "+priceBy);
+        fetch('http://localhost:8085/api/v1/accounting/create', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                id: id,
+                priceBy: priceBy
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if(data.status === 200){
+                alert("Success");
+                document.getElementById("btn").click();
+                alert("Failed");
+            }
+        });
+    }
+       
+    </script>
+</body>
+</html>
